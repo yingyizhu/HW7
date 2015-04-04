@@ -40,7 +40,7 @@
         </asp:SqlDataSource>
     
     </div>
-        <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="ItemID" DataSourceID="SqlDataSource1" Height="50px" Width="125px">
+        <asp:DetailsView ID="DetailsView1" runat="server" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="ItemID" DataSourceID="SqlDataSource1" Height="50px" Width="125px">
             <Fields>
                 <asp:BoundField DataField="ItemID" HeaderText="ItemID" InsertVisible="False" ReadOnly="True" SortExpression="ItemID" />
                 <asp:BoundField DataField="ItemrName" HeaderText="ItemrName" SortExpression="ItemrName" />
@@ -51,7 +51,7 @@
                 <asp:BoundField DataField="Location" HeaderText="Location" SortExpression="Location" />
                 <asp:BoundField DataField="Donate" HeaderText="Donate" SortExpression="Donate" />
                 <asp:BoundField DataField="Price" HeaderText="Price" SortExpression="Price" />
-                <asp:CommandField ShowInsertButton="True" />
+                <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowInsertButton="True" />
             </Fields>
         </asp:DetailsView>
     </form>
