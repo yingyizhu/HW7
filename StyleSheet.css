@@ -37,7 +37,7 @@ border:none;
     text-align: center;
 }
 
-.header {background-color :pink;
+.header {background-color :#F1B2CD;
          color:purple ;
          padding:8px;
          margin : 0 auto ;
@@ -61,7 +61,7 @@ border:none;
 }
 
 #menu {
-    height : 50px;
+    height :50px;
     margin:auto ;
     width:100%;
     
@@ -104,7 +104,7 @@ border:none;
 }
 
 #main {
-    background-color:lightblue;
+    background-color:#BCE3EA;
     color: darkblue;
     padding :10px;
     margin-left: auto;
@@ -113,7 +113,7 @@ border:none;
 }
 
 #footer {
-    background-color :lightgreen;
+    background-color :#D4DD9C;
     color:darkgreen;
     margin:10px;
     font-family:Buxton Sketch,serif;
