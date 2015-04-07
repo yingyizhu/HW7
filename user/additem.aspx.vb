@@ -6,7 +6,7 @@ Partial Class additem
   
 
     Protected Sub DetailsView1_ItemInserted(sender As Object, e As DetailsViewInsertedEventArgs) Handles DetailsView1.ItemInserted
-        Response.AddHeader("REFRESH", "3;URL=../homepage.aspx ")
+        Response.AddHeader("REFRESH", "3;URL=../Default.aspx ")
     End Sub
 
    

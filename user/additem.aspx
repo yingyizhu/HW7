@@ -33,7 +33,7 @@
         </asp:SqlDataSource>
     
     </div>
-        <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="ItemID" DataSourceID="SqlDataSource1" DefaultMode="Insert" Height="50px" Width="125px" CssClass="cssdetailsview"
+        <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="ItemID" DataSourceID="SqlDataSource1" DefaultMode="Insert" Height="50px" Width="621px" CssClass="cssdetailsview"
 HeaderStyle-CssClass="header"
 FieldHeaderStyle-CssClass="fieldheader"
 

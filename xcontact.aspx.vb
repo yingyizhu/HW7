@@ -44,9 +44,13 @@ Partial Class _default
         confirmSent.Text = "Thank you.  Your message has been sent."
 
         'After the message has displayed for 2 seconds, "reload" the page.
-        Response.AddHeader("REFRESH", "2;URL= homepage.aspx")
+        Response.AddHeader("REFRESH", "2;URL= Default.aspx")
 
 
     End Sub
 
+    Protected Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        Dim time As Date = Date.Now
+        Label2.Text = time
+    End Sub
 End Class

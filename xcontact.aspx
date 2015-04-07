@@ -25,6 +25,8 @@
 
 
 <body>
+    
+    <div id="container">
 
     <form id="form1" runat="server">
          <div class="header">
@@ -42,14 +44,14 @@
            
         </div>
 
-        <div id="menu" style ="margin:auto 220px;">
+        <div id="menu" style ="margin:auto;">
 
             <ul id="nav">
-                <li><asp:HyperLink ID="link_Home" runat="server" NavigateUrl="~/homepage.aspx">Home</asp:HyperLink></li>
+                <li><asp:HyperLink ID="link_Home" runat="server" NavigateUrl="~/Default.aspx">Home</asp:HyperLink></li>
                 <li><asp:HyperLink ID="link_swap" runat="server" NavigateUrl="~/user/uswap.aspx">For Swap</asp:HyperLink></li>
                 <li><asp:HyperLink ID="link_newitem" runat="server" NavigateUrl="~/user/additem.aspx">Post New Items</asp:HyperLink></li>
                 <li><asp:HyperLink ID="link_manageAccount" runat="server" NavigateUrl="~/admin/siteManger/default.aspx">Admin Page</asp:HyperLink></li>
-                <li><asp:HyperLink ID="link_search" runat="server" NavigateUrl="~/xsearch.aspx">Search</asp:HyperLink></li>
+                <li><asp:HyperLink ID="link_search" runat="server" NavigateUrl="~/csssearch.aspx">Search</asp:HyperLink></li>
                 <li><asp:HyperLink ID="link_contact" runat="server" NavigateUrl="~/xcontact.aspx">Contact Us</asp:HyperLink></li>
                 <li><asp:HyperLink ID="link_aboutus" runat="server" NavigateUrl="~/aboutus.aspx">About Us</asp:HyperLink></li>
               
@@ -116,6 +118,7 @@
            </div>
 
     </form>
+         </div>
     <p>
         &nbsp;</p>
 

@@ -6,7 +6,7 @@
             Response.Redirect("~/admin/forswap.aspx")
         ElseIf Roles.IsUserInRole(Login1.UserName, "r_user") = True Then
             Response.Redirect("~/user/uswap.aspx")
-        Else : Response.Redirect("~/homepage.aspx")
+        Else : Response.Redirect("~/Default.aspx")
         End If
     End Sub
 End Class
