@@ -3,16 +3,16 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head runat="server">
-    <title></title>
+    <title>Search</title>
 
     <link rel="stylesheet" type="text/css" href="StyleSheet.css" media="screen"/>
 </head>
 
 <body>
-     <form id="form1" runat="server">
+     <div id="form1" runat="server">
     
-    <div id="container">
 
         
        <div class="header">
@@ -60,15 +60,9 @@
 
                </div>
         
-   
-
-        <div id="main" style="width: 860px;">
-   
-    <div>
+       <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:db_yzhu16HW7_swap %>" SelectCommand="SELECT * FROM [yzhu16HW7_swap]"></asp:SqlDataSource>
     
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:db_yzhu16HW7_swap %>" SelectCommand="SELECT * FROM [yzhu16HW7_swap]"></asp:SqlDataSource>
     
-    </div>
 
            <% If Not IsPostBack Then%> 
         <asp:Label ID="lb_searchItemName" runat="server" Text="Search a item by name"></asp:Label>
@@ -99,12 +93,8 @@
         </asp:GridView>
 
           <% End If %>
-
+           
     </div>
-            
-    </div>
-   
-    </form>
 
         <div id="footer">
             &copy; 2015 MSCI:3300 - Software Design and Development
