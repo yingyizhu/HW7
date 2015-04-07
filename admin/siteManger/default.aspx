@@ -11,7 +11,7 @@
     <form id="form1" runat="server">
         <div id="container">
         <ul id="nav">
-            <li class="currentPage"><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/homepage.aspx">Home</asp:HyperLink></li>
+            <li class="currentPage"><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/default.aspx">Home</asp:HyperLink></li>
 	        <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="./roles.aspx">Role Manager</asp:HyperLink></li>
 	        <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="./users.aspx">View & Edit Users</asp:HyperLink></li>
 	        <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="./add_user.aspx">Add New User</asp:HyperLink></li>
