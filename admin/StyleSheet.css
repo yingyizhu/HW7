@@ -1,0 +1,121 @@
+﻿body {
+   background-color:white ;
+}
+
+h1 {
+    font-family: Buxton Sketch;
+    font-weight:bold;
+    font-size:45px;
+}
+
+h2 {
+    font-family: Buxton Sketch;
+    font-weight:bold;
+    font-size:25px;
+    text-align: center;
+}
+h3 {
+    font-size:25px;
+    font-family:Buxton Sketch,serif;
+}
+
+#title {
+border:none;
+}
+
+#container {
+    background-color: lightyellow;
+    padding:20px;
+    margin:0 auto;
+    width:900px;
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+ }
+
+.header {background-color :pink;
+         color:purple ;
+         padding:8px;
+         margin : 0 auto ;
+         width:650px;
+         height :150px;
+         border:10px solid yellow;
+         text-align:center;
+}
+
+#rightheader{
+   padding : 10px;
+   height :100px;
+   float :left;
+   margin:0px auto;
+}
+
+#logo {
+    width:15%;
+    float:left;
+}
+
+#menu {
+    height : 50px;
+    margin:auto ;
+    width:100%;
+    
+}
+#nav {
+    float: left;
+    width:880px;
+    margin:10px;
+    padding:0;
+    background-color:lightsalmon;
+    font-family:Buxton Sketch,serif;
+    height: 44px;
+}
+
+#nav li {
+    float:left 
+}
+
+
+#nav li a {
+    display :block;
+    padding :8px 12px;
+    font-weight :bold;
+    color:purple;
+    text-decoration:none;
+    font-size:20px;
+
+}
+
+#nav li a:hover{
+    color:coral;
+    background-color:lightcoral;
+
+}
+
+#main {
+    background-color:lightblue ;
+    color: darkblue ;
+    padding :10px;
+    margin :0 auto;
+}
+
+#footer {
+    background-color :lightgreen;
+    color:darkgreen;
+    margin:10px;
+    font-family:Buxton Sketch,serif;
+    text-align:center;
+}
+
+.deletedItem {
+color:red;
+font-style:italic;
+}
+
+.validationError {
+color:red;
+font-weight :bold ;
+}

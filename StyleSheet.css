@@ -3,22 +3,24 @@
 }
 
 h1 {
-    font-family: Buxton Sketch;
+    font-family: "Comic Sans MS";
     font-weight:bold;
     font-size:45px;
-    text-align: center;
 }
 
 h2 {
-    font-family: Buxton Sketch;
+    font-family: "Comic Sans MS";
     font-weight:bold;
-    font-size:35px;
+    font-size:25px;
     text-align: center;
 }
 h3 {
-    font-size:45px;
-    font-family:Buxton Sketch,serif;
-    text-align: center;
+    font-size:15px;
+    font-family:"Comic Sans MS",serif;
+}
+
+#title {
+border:none;
 }
 
 #container {
@@ -29,24 +31,28 @@ h3 {
 }
 
 #content {
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
- }
+    margin-left: 0px;
+    margin-right: 152px;
+    width: 66%;
+    text-align: center;
+}
 
-#header {background-color :pink;
+.header {background-color :pink;
          color:purple ;
          padding:8px;
          margin : 0 auto ;
-         width:600px;
-         height :100px;
+         width:650px;
+         height :150px;
          border:10px solid yellow;
          text-align:center;
-
 }
 
-#rightheader{    
-    width: 84px;
+#rightheader{
+   padding : 10px;
+   height :125px;
+   float :left;
+   margin:0px auto;
+    width: 124px;
 }
 
 #logo {
@@ -66,12 +72,13 @@ h3 {
     margin:10px;
     padding:0;
     background-color:lightsalmon;
-    font-family:Buxton Sketch,serif;
+    font-family:"Comic Sans MS";
     height: 44px;
 }
 
 #nav li {
-    float:left 
+    float:left;
+        text-decoration:none;
 }
 
 
@@ -86,16 +93,23 @@ h3 {
 }
 
 #nav li a:hover{
-    color:coral;
+    color:red;
     background-color:lightcoral;
 
 }
 
+#time {
+    background-color:none;
+    font-family:'Comic Sans MS';
+}
+
 #main {
-    background-color:lightblue ;
-    color: darkblue ;
+    background-color:lightblue;
+    color: darkblue;
     padding :10px;
-    margin :10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
 }
 
 #footer {
@@ -105,3 +119,68 @@ h3 {
     font-family:Buxton Sketch,serif;
     text-align:center;
 }
+
+.deletedItem {
+color:red;
+font-style:italic;
+}
+
+.validationError {
+color:red;
+font-weight :bold ;
+}
+
+.cssgridview { width:100%; margin:5px 0 10px 0; border:solid 1px #525252;
+border-collapse:collapse; text-align:center; font-family: "Comic Sans MS"; color:
+#7C6F57; background-color: #F7F6F3}
+
+.cssgridview td { padding:10px; border:solid 1px #c1c1c1; color:#717171; }
+
+.cssgridview td a, a:visited { color:#717171; text-decoration:none; }
+
+.cssgridview th { padding:10px; color:#fff; background:#424242
+url(./images/css/grd_head.png) repeat-x top; border-left:solid 1px #525252;
+font-size:0.9em; }
+
+.cssgridview th a { color:silver; text-decoration:none; }
+
+.cssgridview th a:hover { color:white; background-color:#7C6F57;
+text-decoration:underline; }
+
+.cssgridview .alt { background: #fcfcfc url(./images/css/grd_alt.png) repeat-x top;}
+
+.cssgridview .pgr { background: #424242 url(./css/grd_pgr.png) repeat-x top; }
+
+.cssgridview .pgr table { margin: 5px 0; }
+
+.cssgridview .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666;
+font-weight: bold; color: #fff; line-height: 12px; }
+
+.cssgridview .pgr a { color: #666; text-decoration: none; }
+
+.cssgridview .pgr a:hover { color: #000; text-decoration: underline; }
+
+.cssdetailsview { font-family: "Comic Sans MS"; background-color:#fff; margin:5px 5px 10px 0; 
+border:solid 1px #525252; border-collapse:collapse; text-align:center; }
+
+.cssdetailsview td { padding:10px; border:solid 1px #c1c1c1; color:#717171;
+text-align:left;}
+
+.cssdetailsview .header td { text-align:center; padding:4px 2px; color:silver;
+background:#424242 url(./css/grd_head.png) repeat-x top; border-left:solid 1px
+#525252; }
+
+.cssdetailsview .fieldheader { color:red; width:150px; text-align:right;}
+
+.cssdetailsview .altrow { background: #fcfcfc url(./css/grd_alt.png) repeat-x top; }
+
+.cssdetailsview .command { background: #424242 url(./css/grd_pgr.png) repeat-x top;
+line-height: 20px;}
+
+.cssdetailsview .command td { text-align:center;}
+
+.cssdetailsview .command a {color:Silver; text-decoration:none; padding:10px; }
+
+.cssdetailsview .command a:hover {color:Silver; text-decoration:underline; }
+
+.cssdetailsview .pager {}

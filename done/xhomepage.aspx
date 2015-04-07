@@ -1,15 +1,26 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/swap.master" AutoEventWireup="false" CodeFile="homepage.aspx.vb" Inherits="homepage" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="xhomepage.aspx.vb" Inherits="homepage" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server"> Homepage
-</asp:Content>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
 
 
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+        .cssGridView td a, a:visited {
+            color: #717171;
+            text-decoration: underline;
+        }
+
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
     
         <h2>This is the default content for unauthenticated users. </h2>
-       
-    <div id="homepage content" style ="float : left; padding-left :250px; font-family  :'Comic Sans MS' ; font-size :20px;">
-     <ul>
+        <ul>
             <li>admin -
                 <ul>
                     <li>Name: Harry, mikec</li>
@@ -25,35 +36,21 @@
                 </ul>
             </li>
         </ul>
-
-        <p>
-            &nbsp;</p>
-
-        </div>
         <p>
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:db_yzhu16HW7_swap %>" SelectCommand="SELECT * FROM [yzhu16HW7_swap]"></asp:SqlDataSource>
         </p>
         <p>
-            
-           
-
-
-            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="ItemID" DataSourceID="SqlDataSource1" PageSize="52"
-Gridlines="None"
-CssClass="cssgridview"
-AlternatingRowStyle-CssClass="alt"
-PagerStyle-CssClass="pgr" AllowPaging="True" AllowSorting="True"
->
-<AlternatingRowStyle CssClass="alt"></AlternatingRowStyle>
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="ItemID" DataSourceID="SqlDataSource1">
                 <Columns>
                     <asp:BoundField DataField="ItemrName" HeaderText="ItemrName" SortExpression="ItemrName" />
                     <asp:BoundField DataField="ItemDesc" HeaderText="ItemDesc" SortExpression="ItemDesc" />
                 </Columns>
-
-<PagerStyle CssClass="pgr"></PagerStyle>
             </asp:GridView>
         </p>
-       
-
-</asp:Content>
-
+        <p>
+            &nbsp;</p>
+    
+    </div>
+    </form>
+</body>
+</html>
