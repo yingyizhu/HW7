@@ -39,13 +39,12 @@
 
             <ul id="nav">
                 <li><asp:HyperLink ID="link_Home" runat="server" NavigateUrl="~/Default.aspx">Home</asp:HyperLink></li>
-                <li><asp:HyperLink ID="link_swap" runat="server" NavigateUrl="~/login/login.aspx">Swap</asp:HyperLink></li>
+                <li><asp:HyperLink ID="link_swap" runat="server" NavigateUrl="~/login/login.aspx">Log in for Swap</asp:HyperLink></li>
                 <li><asp:HyperLink ID="link_newitem" runat="server" NavigateUrl="~/user/login.aspx">Post New Items</asp:HyperLink></li>
                 <li><asp:HyperLink ID="link_manageAccount" runat="server" NavigateUrl="~/admin/siteManger/default.aspx">Admin Page</asp:HyperLink></li>
                 <li><asp:HyperLink ID="link_search" runat="server" NavigateUrl="~/csssearch.aspx">Search</asp:HyperLink></li>
                 <li><asp:HyperLink ID="link_contact" runat="server" NavigateUrl="~/xcontact.aspx">Contact</asp:HyperLink></li>
                 <li><asp:HyperLink ID="link_aboutus" runat="server" NavigateUrl="~/aboutus.aspx">About Us</asp:HyperLink></li>
-                <li><asp:HyperLink ID="link_login" runat="server" NavigateUrl="~/login/login.aspx">Log In</asp:HyperLink></li>
     
    
             </ul>
